@@ -8,32 +8,7 @@ import {Text, useTheme} from 'react-native-paper';
 const Main = () => {
   const theme = useTheme();
   const [showTextModal, setShowTextModal] = React.useState(false);
-  const [todo, setTodo] = React.useState([
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-    'karan',
-  ]);
+  const [todo, setTodo] = React.useState([]);
   const addTodo = val => {
     setTodo([...todo, val]);
   };
